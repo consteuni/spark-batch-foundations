@@ -1,0 +1,11 @@
+order_id,customer_id,product_category,amount,status,country
+1,101,books,19.99,completed,IT
+2,102,electronics,199.99,completed,FR
+3,103,books,12.50,cancelled,IT
+4,104,home,45.00,completed,DE
+5,101,electronics,89.90,completed,IT
+6,105,books,8.99,pending,ES
+7,106,home,120.00,completed,FR
+8,107,sports,59.99,completed,IT
+9,108,books,14.99,completed,DE
+10,109,electronics,299.99,pending,IT

@@ -1,0 +1,9 @@
+services:
+  spark-app:
+    build: .
+    container_name: spark-batch-foundations
+    working_dir: /app
+    volumes:
+      - ./:/app
+      - /app/.venv
+    command: uv run python src/main.py
